@@ -22,7 +22,7 @@ export default function FloatingNav() {
   };
 
   return (
-    <nav className="fixed right-8 top-28 z-50 flex flex-col gap-4 rounded-full border border-white/10 bg-transparent p-2.5">
+    <nav className="fixed right-8 top-28 z-10 flex flex-col gap-4 rounded-full border border-white/10 bg-black/10 px-4 py-6 backdrop-blur-md">
       {links.map(({ id, icon: Icon, label }, i) => (
         <button
           key={id}

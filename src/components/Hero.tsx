@@ -2,6 +2,7 @@ import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { assets } from "@/lib/assets";
 
+
 export default function Hero() {
   return (
     <section id="hero" className="mx-auto flex max-w-3xl flex-col items-center px-6 pb-32 pt-16">
@@ -21,7 +22,7 @@ export default function Hero() {
         </p>
       </div>
 
-      <div className="mt-20 space-y-2 text-center text-lg text-gray-400">
+      <div className="mt-5 space-y-2 text-center text-lg text-gray-400">
         <p>
           Hi, I&apos;m <span className="font-medium text-white">Somya Tanwar</span>,
         </p>
